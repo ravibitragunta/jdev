@@ -1,0 +1,23 @@
+<References xmlns="http://xmlns.oracle.com/adf/jndi">
+  <Reference name="mysql" className="oracle.jdeveloper.db.adapter.DatabaseProvider" credentialStoreKey="mysql" xmlns="">
+    <Factory className="oracle.jdevimpl.db.adapter.DatabaseProviderFactory1212"/>
+    <RefAddresses>
+      <StringRefAddr addrType="hostname">
+        <Contents>localhost</Contents>
+      </StringRefAddr>
+      <SecureRefAddr addrType="password"/>
+      <StringRefAddr addrType="driver">
+        <Contents>com.mysql.jdbc.Driver</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="subtype">
+        <Contents>MYSQL</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="user">
+        <Contents>ravi</Contents>
+      </StringRefAddr>
+      <StringRefAddr addrType="dataSourceName">
+        <Contents>DESHAW_ARCHIVE</Contents>
+      </StringRefAddr>
+    </RefAddresses>
+  </Reference>
+</References>

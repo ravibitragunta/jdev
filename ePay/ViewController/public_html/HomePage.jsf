@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+    <af:document title="HomePage.jsf" id="d1">
+        <af:form id="f1">
+            <p xmlns="http://www.w3.org/1999/xhtml">
+                <af:outputText value="This is a Home Page" id="ot2" inlineStyle="font-size:large;"/>
+            </p>
+            <p xmlns="http://www.w3.org/1999/xhtml">
+                 
+            </p>
+            <af:button text="View Details" id="b1" action="gotoDetails"/>
+        </af:form>
+    </af:document>
+</f:view>

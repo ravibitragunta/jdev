@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.9.14" id="AppModule_EmployeeViewResources"
+                Package="model.rest.v1" usageMode="RESTClient">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="EmployeeView1" RangeSize="5" DataControl="AppModuleDataControl" id="EmployeeView1Iter"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="EmployeeView1Iter" id="Employee" AccessorFolder="Always">
+      <nodeDefinition DefName="model.EmployeeView" Name="model.EmployeeView"/>
+    </tree>
+  </bindings>
+</pageDefinition>
